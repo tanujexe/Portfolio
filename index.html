@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -38,9 +38,9 @@
                 <h4 class="profession typing">Web Developer</h4>
 
                 <p id="intro">
-                    Crafting beautiful, functional, and user-centered digital
+                    Crafting beautiful, functional, and user-centered digital <br>
                     experiences. Passionate about creating innovative
-                    solutions that make a difference.
+                    solutions that <br> make a difference.
                 </p>
 
                 <div class="home-btn">
@@ -160,5 +160,74 @@
     <script src="app.js"></script>
 </body>
 
-<section class="contact" id="contact"></section>
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind or want to collaborate? Feel free to reach out! I'm
+            always <br>open to discussing new opportunities.</p>
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="email">
+                    <a href="mailto:tanujagrawal1432@gmail.com" class="contact-link">
+                        <i class="fa-solid fa-envelope"></i> Email Me
+                    </a>
+                </div>
+                <div class="number">
+                    <a href="tel:7000153790" class="contact-link">
+                        <i class="fa-solid fa-phone"></i> 7000153790
+                    </a>
+                </div>
+                <div class="connect">
+                    <h3>
+                        Connect With Me
+                    </h3>
+                    <div class="connect-icon">
+                        <a href="https://github.com/tanujexe" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tanuj-agrawal-19b609378/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="end-msg">
+                    <h4> Let's work together!</h4>
+                    <p>I'm currently available for freelance work and exciting opportunities.</p>
+                </div>
+            </div>
+
+            <!----------------- msg-box------------------>
+            <div class="msg-box">
+                <form action="/action">
+                    <label for="username">
+                        Your Name
+                    </label><br>
+                    <input type="text" name="Name" id="username" placeholder="Name"><br>
+                    <label for="email">
+                        Your Email
+                    </label><br>
+                    <input type="email" name="Email" id="email" placeholder="Name@gamil.com"><br>
+                    <label for="Subject">
+                        Subject
+                    </label><br>
+                    <input type="text" id="subject" placeholder="Project Inquery"><br>
+                    <label for="project-info">
+                        Message
+                    </label><br>
+                    <textarea type="text" id="project-info" name="message" placeholder="Tell me about your project..."
+                        cols="40" rows="4"></textarea><br>
+                    <button type="submit"><i class="fa-regular fa-paper-plane"></i>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="made-by">
+    <p>Made with  <span><i class="fa-solid fa-heart fa-beat" style="color: red;"></i></span>  by Tanuj Agrawal</p>
+    <p class="copy-right">© 2026 All rights reserved.</p>
+</div>
+
 </html>
